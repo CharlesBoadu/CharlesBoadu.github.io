@@ -29,11 +29,6 @@ body {
     font-weight: bold;
 }
 
-section {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 #img1 {
     width: 180px;
     height: 220px;

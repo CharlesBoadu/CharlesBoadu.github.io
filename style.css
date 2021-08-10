@@ -30,16 +30,21 @@ body {
     font-weight: bold;
 }
 
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 #img1 {
-    width: 500px;
-    height: 400px;
+    width: 250px;
+    height: 300px;
     text-align: left;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 10px;
     float: left;
     object-fit: cover;
-    border: 2px solid rgb(0, 255, 255);
+    border: 2px solid rgb(30, 46, 59);
 }
 
 #img2 {
@@ -50,7 +55,7 @@ body {
 }
 
 #div1 {
-    margin-top: 40px;
+    margin-top: 0px;
     font-size: 1rem;
     line-height: 1.5;
     margin-right: 30px;

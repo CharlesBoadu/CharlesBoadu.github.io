@@ -28,6 +28,11 @@ body {
   color: white;
 }
 
+.nav_item:hover {
+  color: rgb(133, 77, 255);
+  text-decoration: none;
+}
+
 .navbar_nav {
   padding-right: 100px;
 }

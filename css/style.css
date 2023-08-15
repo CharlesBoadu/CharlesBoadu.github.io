@@ -168,6 +168,13 @@ body {
   background-color: #061551;
 }
 
+.footer-icons {
+  display: flex;
+  margin: 0 auto;
+  width: 8%;
+  justify-content: space-between;
+}
+
 .copyright {
   color: #854dff;
   text-align: center;

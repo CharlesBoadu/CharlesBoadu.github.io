@@ -84,7 +84,7 @@ body {
 .about-vision-skills {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -92,12 +92,20 @@ body {
   color: #8151f1;
   font-weight: bold;
   font-size: x-large;
+  padding-bottom: 20px;
+}
+
+.bio-image {
   padding-bottom: 10px;
 }
 
 .bio-item {
   padding: 50px;
   text-align: center;
+}
+
+.bio-text-container {
+  padding-top: 20px;
 }
 
 .welcome-text-container {

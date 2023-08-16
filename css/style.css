@@ -61,13 +61,43 @@ body {
 }
 
 #welcome-name {
-  text-shadow: #ffffff 3px 3px 0px;
   color: #8151f1;
+  font-weight: 400px;
 }
 
 #welcome-career {
-  color: rgb(255, 215, 0);
+  color: #8151f1;
+}
+
+.bio-section {
+  background-color: white;
+  height: 100vh;
+}
+
+#bio-heading {
+  text-align: center;
   text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-skip: none;
+}
+
+.about-vision-skills {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bio-sub-heading {
+  color: #8151f1;
+  font-weight: bold;
+  font-size: x-large;
+  padding-bottom: 10px;
+}
+
+.bio-item {
+  padding: 50px;
+  text-align: center;
 }
 
 .welcome-text-container {

@@ -251,6 +251,20 @@ body {
   padding-top: 1%;
 }
 
+.elevator-pitch-image-x-o-left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.elevator-pitch-image-x-o-right {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2%;
+}
+
 
 @keyframes slide {
   0%,

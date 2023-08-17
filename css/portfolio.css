@@ -1,0 +1,145 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0px 0px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #212529;
+  background-color: rgb(6, 21, 81);
+}
+
+.sticky-nav {
+  height: 100vh;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 20px;
+}
+
+.navbar-main {
+  background-color: rgb(6, 21, 81);
+  padding: 20px 10px;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 3px solid #8151f1;
+}
+
+.nav-items {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.nav-item.active {
+  color: #8151f1;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: rgb(133, 77, 255);
+  text-decoration: none;
+}
+
+.portfolio-projects {
+	color: white;
+	margin-top: 10%;
+}
+
+#portfolio-heading {
+	text-align: center;
+	font-size: 3.5rem;
+	color: #8151f1;
+	text-shadow: 1px 1px 2px ;
+}
+
+.portfolio-sub-heading {
+	text-align: center;
+	font-size: larger;
+	padding-top: 2%;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#projects-heading {
+	color: white;
+	font-size: 2.5rem;
+	padding-left: 15%;
+	padding-top: 3%;
+}
+
+.underline hr {
+	border: none; /* Remove default border */
+    height: 5px;
+	width: 16.5%; /* Adjust thickness as needed */
+    background-color: white; /* Set color */
+    margin: 10px 0;
+	margin-left: 15%;
+}
+
+#project-number-one {
+	font-size: 3rem;
+	padding-left: 2.5%;
+}
+
+#number-one-circle {
+	margin-top: -10%;
+}
+
+.project-one-container-left {
+	margin-left: 15%;
+}
+
+.project-one-images-1 {
+	text-align: center;
+}
+/* .project-one-container-right {
+
+} */
+
+.project-one-images {
+	display: flex;
+	width: 40%;
+	margin: 0 auto;
+}
+
+#project-one-text {
+	width: 60%;
+	padding-top: 2%;
+	font-size: 1.5rem;
+}
+
+.project-one-container {
+	display: flex;
+	/* justify-content: space-evenly; */
+}
+
+.footer-dark {
+  padding: 20px 0;
+  background-color: #061551;
+  bottom: 0;
+  top: 0;
+  position: relative;
+}
+
+.footer-icons {
+  display: flex;
+  margin: 0 auto;
+  width: 8%;
+  justify-content: space-between;
+}
+
+.copyright {
+  color: #854dff;
+  text-align: center;
+  margin-top: 20px;
+}

@@ -4,153 +4,98 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Charles Boadu - Social</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" type="text/css" href="../css/portfolio.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--Fixed Nav bar at top of webpage-->
-    <div class="bs-example">
+    <div class="sticky-nav">
       <nav class="navbar-main">
         <div class="nav-items">
-          <a href="../index.html" class="nav-item">Home</a>
-          <a href="./bio.html" class="nav-item">Bio</a>
-          <a href="./portfolio.html" class="nav-item">Portfolio</a>
+          <a href="../index.html" class="nav-item" id="home-link">Home</a>
+          <a href="../index.html#bio-section" class="nav-item" id="bio-link"
+            >Bio</a
+          >
+          <a href="./html/portfolio.html" class="nav-item" id="portfolio-link"
+            >Portfolio</a
+          >
         </div>
       </nav>
     </div>
 
-    <br />
-    <p style="text-align: center; font-size: large; font-weight: bold">
-      Connect with me on these social media handles
-    </p>
-
-    <!-- responsive display of social media handles-->
-    <div
-      style="
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 20px 20px;
-      "
-    >
-      <div class="row" style="justify-content: center">
-        <div>
-          <a
-            href="https://web.facebook.com/charles.oseiboadu"
-            target="-blank"
-            style="text-decoration: none"
-            ><img
-              src="facebook.jpg"
-              alt="Facebook logo"
-              width="150px"
-              height="100px"
-              style="border-radius: 25%; margin: 20px 20px"
-            />Charles Osei Boadu</a
-          >
-        </div>
-        <div>
-          <a
-            href="https://www.instagram.com/charlesoseiboadu/"
-            target="-blank"
-            style="text-decoration: none"
-            ><img
-              src="instagram.jpg"
-              alt="instagram logo"
-              width="150px"
-              height="100px"
-              style="border-radius: 25%; margin: 20px 20px"
-            />Charles Osei Boadu</a
-          >
-        </div>
+    <!-- Section that lists projects completed -->
+    <div class="portfolio-projects">
+      <div id="portfolio-heading">My Portfolio</div>
+      <div class="portfolio-sub-heading">
+        Welcome to my portfolio. Here you'll find a selection of my work.
+        Explore my projects to learn more about what I do.
       </div>
-
-      <div class="row" style="justify-content: center; margin: 0px 10px">
-        <div>
-          <a
-            href="https://www.linkedin.com/in/charles-boadu-6b8129207/"
-            target="-blank"
-            style="text-decoration: none"
-            ><img
-              src="linkedin.jpg"
-              alt="linkedin logo"
-              width="150px"
-              height="100px"
-              style="border-radius: 25%; margin: 20px 20px"
-            />Charles Boadu</a
-          >
-        </div>
-        <div>
-          <a
-            href="https://twitter.com/Charles48722181"
-            target="-blank"
-            style="text-decoration: none"
-            ><img
-              src="twitter.jpg"
-              alt="twitter logo"
-              width="150px"
-              height="100px"
-              style="border-radius: 25%; margin: 20px 20px"
-            />Charles Boadu</a
-          >
-        </div>
+      <div id="projects-heading">My Projects</div>
+      <div class="underline">
+        <hr />
       </div>
-
-      <div class="row" style="justify-content: center; margin: 0px 10px">
-        <div>
-          <img
-            src="telegram.jpg"
-            alt="telegram logo"
-            width="150px"
-            height="100px"
-            style="border-radius: 25%; margin: 20px 20px"
-          />Charles Boadu
-        </div>
-        <div>
-          <a
-            href="https://github.com/CharlesBoadu"
-            target="-blank"
-            style="text-decoration: none"
-            ><img
-              src="github.svg.png"
-              alt="github logo"
-              width="150px"
-              height="100px"
-              style="border-radius: 25%; margin: 20px 20px"
-            />Charles Boadu</a
-          >
-        </div>
-      </div>
-
-      <div class="row" style="justify-content: center">
-        <div>
-          <a href="tel: +233 020 516 9476" style="text-decoration: none"
-            ><img
-              src="phone.png"
-              alt="phone logo"
-              width="150px"
-              height="100px"
-              style="border-radius: 25%; margin: 20px 20px"
-            />+233 020 516 9476</a
-          >
-        </div>
-        <div>
-          <img
-            src="whatsapp.png"
-            alt="whatsapp logo"
-            width="150px"
-            height="100px"
-            style="border-radius: 25%; margin: 20px 20px"
-          />+233 020 516 9476
+      <div class="projects">
+        <div class="project-one-container">
+          <div class="project-one-container-left">
+            <div id="project-number-one">1</div>
+            <div id="number-one-circle">
+              <img
+                src="../assets/circle-purple.png"
+                alt="purple-circle"
+                height="10%"
+                width="10%"
+              />
+            </div>
+            <div id="project-one-text">
+              Deployment of a web Application developed using Nextjs Framework
+              to a Linux server in the cloud
+            </div>
+          </div>
+          <div class="project-container-right">
+            <div class="project-one-images">
+              <div>
+                <img
+                  src="../assets/cloud-computing.png"
+                  alt="Cloud computing"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <div>
+                <img
+                  src="../assets/Linux.png"
+                  alt="Cloud computing"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+            </div>
+            <div class="project-one-images-1">
+              <div>
+                <img
+                  src="../assets/cloud-upload.png"
+                  alt="Cloud computing"
+                  width="30%"
+                  height="30%"
+                />
+              </div>
+              <div>
+                <img
+                  src="../assets/Web Application.PNG"
+                  alt="Web Application"
+                  width="50%"
+                  height="50%"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -165,8 +110,7 @@
             ><a href="https://twitter.com/Charles48722181">
               <i class="fab fa-twitter fa-inverse"></i> </a
             ><a href="https://www.instagram.com/charlesoseiboadu/">
-              <i class="fab fa-instagram fa-inverse"></i>
-              </a
+              <i class="fab fa-instagram fa-inverse"></i> </a
             ><a href="https://www.linkedin.com/in/charles-boadu-6b8129207/">
               <i class="fab fa-linkedin-in fa-inverse"></i>
             </a>

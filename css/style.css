@@ -2,7 +2,7 @@ body {
   font-family: "Raleway", sans-serif;
   background-image: url("backgroundimage.jfif");
   margin: 0px 0px;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-size: 1rem;
@@ -42,8 +42,12 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  margin-bottom: 40%;
+  margin-bottom: 20%;
   /* margin-top: -1.5%; */
+}
+
+.nav-item.active {
+  color: #8151f1; 
 }
 
 .video-bg {
@@ -78,49 +82,11 @@ body {
   color: #8151f1;
 }
 
-.bio-section {
-  background-color: white;
-  height: 100vh;
-  padding-top: 8%;
-  padding-bottom: 3%;
-}
-
-#bio-heading {
-  text-align: center;
-  font-weight: bolder;
-}
-
-.about-vision-skills {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.bio-sub-heading {
-  color: #8151f1;
-  font-weight: 800;
-  font-size: x-large;
-  padding-bottom: 20px;
-}
-
-.bio-image {
-  padding-bottom: 10px;
-}
-
-.bio-item {
-  padding: 50px;
-  text-align: center;
-}
-
-.bio-text-container {
-  padding-top: 20px;
-}
-
 .welcome-text-container {
   width: 60%;
   padding-top: 10%;
   margin: 0 auto;
+  margin-bottom: 20%;
 }
 
 .welcome-h1 {
@@ -142,7 +108,6 @@ body {
   justify-content: flex-end;
   margin-right: 4%;
 }
-
 
 .navbar-nav {
   padding-right: 100px;
@@ -216,6 +181,77 @@ body {
 .carousel-button.next {
   right: 1rem;
 }
+
+
+.bio-section {
+  background-color: white;
+  height: 100vh;
+  padding-top: 8%;
+  padding-bottom: 3%;
+}
+
+#bio-heading {
+  text-align: center;
+  font-weight: 800;
+}
+
+.about-vision-skills {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bio-sub-heading {
+  color: #8151f1;
+  font-weight: 800;
+  font-size: x-large;
+  padding-bottom: 20px;
+}
+
+.bio-image {
+  padding-bottom: 10px;
+}
+
+.bio-item {
+  padding: 50px;
+  text-align: center;
+}
+
+.bio-text-container {
+  padding-top: 20px;
+}
+
+.elevator-pitch-section {
+  height: 100vh;
+  background-color: rgb(6, 21, 81);
+}
+
+#elevator-pitch-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* z-index: -1; */
+  opacity: 0.2;
+}
+
+#elevator-pitch-heading {
+  font-size: xx-large;
+  text-align: center;
+  color: white;
+  padding-top: 4%;
+}
+
+#elevator-pitch-content {
+  color: white;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 1%;
+}
+
+
 @keyframes slide {
   0%,
   100% {
@@ -231,79 +267,12 @@ body {
   }
 }
 
-#index-body {
-  background-image: url("pic.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.ulList {
-  background-color: rgb(30, 46, 59);
-  margin-top: 0px;
-  text-align: end;
-  padding: 20px 20px;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-#img1 {
-  width: 200px;
-  height: 220px;
-  margin-left: 30px;
-  margin-right: 30px;
-  float: left;
-  object-fit: cover;
-  border: 2px solid rgb(30, 46, 59);
-}
-
-#img2 {
-  width: 10px;
-  height: 10px;
-  border-radius: 30%;
-  float: left;
-}
-
-#div1 {
-  margin-top: 0px;
-  font-size: 1rem;
-  line-height: 1.5;
-  margin-right: 30px;
-  margin-left: 30px;
-  text-align: justify;
-  font-weight: 400;
-  color: #212529;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-}
-
-#td-names {
-  font-size: large;
-}
-
-#profile-p {
-  color: white;
-  background-color: rgba(80, 80, 102, 0.6);
-  padding: 20px 20px;
-  border-radius: 5px 20px 5px;
-  border: 2px solid white;
-  line-height: 50px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-}
-
-.nav-item-one {
-  display: inline;
-  padding: 10px 10px;
-  font-size: 100%;
-}
-
 .footer-dark {
   padding: 20px 0;
   background-color: #061551;
+  bottom: 0;
+  top: 0;
+  position: relative;
 }
 
 .footer-icons {

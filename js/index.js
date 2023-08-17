@@ -17,40 +17,11 @@ buttons.forEach((button) => {
   });
 });
 
-// document.addEventListener("DOMContentLoaded", function () {
-//   const carousel = document.querySelector("[data-carousel]");
-//   const slides = document.querySelectorAll("[data-slides] .slide");
-//   let currentIndex = 0;
+const links = document.querySelectorAll(".nav-item");
 
-//   function showSlide(index) {
-//     slides.forEach((slide) => slide.classList.remove("active"));
-//     slides[index].classList.add("active");
-//   }
-
-//   function nextSlide() {
-//     currentIndex = (currentIndex + 1) % slides.length;
-//     showSlide(currentIndex);
-//   }
-
-//   function prevSlide() {
-//     currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-//     showSlide(currentIndex);
-//   }
-
-//   function autoSlide() {
-//     nextSlide();
-//   }
-
-//   carousel.addEventListener("mouseenter", () => clearInterval(interval));
-//   carousel.addEventListener("mouseleave", () => {
-//     interval = setInterval(autoSlide, 3000); // Adjust slide duration in milliseconds (3 seconds in this example)
-//   });
-
-//   const nextButton = document.querySelector("[data-carousel-button='next']");
-//   const prevButton = document.querySelector("[data-carousel-button='prev']");
-
-//   nextButton.addEventListener("click", nextSlide);
-//   prevButton.addEventListener("click", prevSlide);
-
-//   let interval = setInterval(autoSlide, 3000); // Start auto-slide on page load
-// });
+links.forEach((link) => {
+  link.addEventListener("click", () => {
+    links.forEach((l) => l.classList.remove("active"));
+    link.classList.add("active");
+  });
+});

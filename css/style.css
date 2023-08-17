@@ -93,6 +93,20 @@ body {
   font-size: 55px;
 }
 
+.small-circles {
+  position: absolute;
+  right: 1%;
+  z-index: -1;
+  width: 5%;
+}
+
+.small-circles-1 {
+  position: absolute;
+  left: 1%;
+  z-index: -1;
+  width: 5%;
+}
+
 .nav-item {
   color: white;
 }

@@ -1,7 +1,10 @@
 const buttons = document.querySelectorAll("[data-carousel-button]");
+const links = document.querySelectorAll(".nav-item");
+
 
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
+    console.log("I have been clicked")
     const offset = button.dataset.carouselButton === "next" ? 1 : -1;
     const slides = button
       .closest("[data-carousel]")
@@ -17,7 +20,6 @@ buttons.forEach((button) => {
   });
 });
 
-const links = document.querySelectorAll(".nav-item");
 
 links.forEach((link) => {
   link.addEventListener("click", () => {

@@ -11,14 +11,23 @@ body {
   background-color: rgb(6, 21, 81);
 }
 
+.sticky-nav {
+  height: 100vh;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 20px;
+}
+
 .navbar-main {
   background-color: rgb(6, 21, 81);
   padding: 20px 10px;
   display: flex;
-  justify-content: end;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 40px 100px rgba(6, 21, 81);
-  z-index: 1000;
+  justify-content: flex-end;
+  border-bottom: 3px solid #8151f1;
 }
 
 .nav-items {
@@ -33,7 +42,7 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  margin-bottom: 50%;
+  margin-bottom: 40%;
   /* margin-top: -1.5%; */
 }
 
@@ -72,13 +81,13 @@ body {
 .bio-section {
   background-color: white;
   height: 100vh;
+  padding-top: 8%;
+  padding-bottom: 3%;
 }
 
 #bio-heading {
   text-align: center;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-decoration-skip: none;
+  font-weight: bolder;
 }
 
 .about-vision-skills {
@@ -90,7 +99,7 @@ body {
 
 .bio-sub-heading {
   color: #8151f1;
-  font-weight: bold;
+  font-weight: 800;
   font-size: x-large;
   padding-bottom: 20px;
 }
@@ -133,6 +142,7 @@ body {
   justify-content: flex-end;
   margin-right: 4%;
 }
+
 
 .navbar-nav {
   padding-right: 100px;
@@ -196,7 +206,7 @@ body {
 }
 
 .carousel-button:focus {
-  outline: 1px solid black;
+  outline: 1px solid #8151f1;
 }
 
 .carousel-button.prev {

@@ -51,76 +51,109 @@ body {
 }
 
 .portfolio-projects {
-	color: white;
-	margin-top: 10%;
+  color: white;
+  margin-top: 10%;
 }
 
 #portfolio-heading {
-	text-align: center;
-	font-size: 3.5rem;
-	color: #8151f1;
-	text-shadow: 1px 1px 2px ;
+  text-align: center;
+  font-size: 3.5rem;
+  color: #8151f1;
+  text-shadow: 1px 1px 2px;
 }
 
 .portfolio-sub-heading {
-	text-align: center;
-	font-size: larger;
-	padding-top: 2%;
-	width: 60%;
-	margin: 0 auto;
+  text-align: center;
+  font-size: larger;
+  padding-top: 2%;
+  width: 60%;
+  margin: 0 auto;
 }
 
 #projects-heading {
-	color: white;
-	font-size: 2.5rem;
-	padding-left: 15%;
-	padding-top: 3%;
+  color: white;
+  font-size: 2.5rem;
+  padding-left: 15%;
+  padding-top: 3%;
 }
 
 .underline hr {
-	border: none; /* Remove default border */
-    height: 5px;
-	width: 16.5%; /* Adjust thickness as needed */
-    background-color: white; /* Set color */
-    margin: 10px 0;
-	margin-left: 15%;
+  border: none; /* Remove default border */
+  height: 5px;
+  width: 16.5%; /* Adjust thickness as needed */
+  background-color: white; /* Set color */
+  margin: 10px 0;
+  margin-left: 15%;
 }
 
 #project-number-one {
-	font-size: 3rem;
-	padding-left: 2.5%;
+  font-size: 3rem;
+  padding-left: 3%;
+  margin-bottom: -10%;
 }
 
-#number-one-circle {
-	margin-top: -10%;
+#project-number-two {
+  font-size: 3rem;
+  padding-left: 2%;
+  margin-bottom: -6.5%;
+}
+
+#number-two-circle {
+  margin-top: -10%;
 }
 
 .project-one-container-left {
-	margin-left: 15%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-two-container-left {
+  margin-left: 15%;
+}
+
+.project-two-container-right {
+  text-align: center;
 }
 
 .project-one-images-1 {
-	text-align: center;
+  text-align: center;
 }
 /* .project-one-container-right {
 
 } */
 
 .project-one-images {
-	display: flex;
-	width: 40%;
-	margin: 0 auto;
+  display: flex;
+  width: 40%;
+  margin: 0 auto;
 }
 
 #project-one-text {
-	width: 60%;
-	padding-top: 2%;
-	font-size: 1.5rem;
+  padding-top: 2%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#project-two-text {
+  padding-top: 2%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .project-one-container {
-	display: flex;
-	/* justify-content: space-evenly; */
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+.project-two-container {
+  display: flex;
+  margin-top: 10%;
 }
 
 .footer-dark {

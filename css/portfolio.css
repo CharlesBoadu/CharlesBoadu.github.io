@@ -10,6 +10,12 @@ body {
   background-color: rgb(6, 21, 81);
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
 .sticky-nav {
   height: 100vh;
   z-index: 100;
@@ -223,12 +229,6 @@ body {
 .image-container {
   text-align: center;
   margin-top: 20px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  cursor: pointer;
 }
 
 .lightbox {

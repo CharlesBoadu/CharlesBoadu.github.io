@@ -95,11 +95,16 @@ body {
 #project-number-two {
   font-size: 3rem;
   padding-left: 2%;
-  margin-bottom: -6.5%;
+}
+
+#project-number-three {
+  font-size: 3rem;
+  padding-left: 3%;
+  margin-bottom: -10.5%;
 }
 
 #number-two-circle {
-  margin-top: -10%;
+  margin-top: -11%;
 }
 
 .project-one-container-left {
@@ -111,9 +116,19 @@ body {
 
 .project-two-container-left {
   margin-left: 15%;
+  width: 100%;
+}
+
+.project-three-container-left {
+  margin-left: 15%;
+  width: 100%;
 }
 
 .project-two-container-right {
+  text-align: center;
+}
+
+.project-three-right {
   text-align: center;
 }
 
@@ -146,12 +161,25 @@ body {
   margin: 0 auto;
 }
 
+#project-three-text {
+  padding-top: 2%;
+  font-size: 1.5rem;
+  /* display: flex; */
+  /* justify-content: center; */
+  margin: 0 auto;
+}
+
 .project-one-container {
   display: flex;
   /* justify-content: space-evenly; */
 }
 
 .project-two-container {
+  display: flex;
+  margin-top: 10%;
+}
+
+.project-three-container {
   display: flex;
   margin-top: 10%;
 }

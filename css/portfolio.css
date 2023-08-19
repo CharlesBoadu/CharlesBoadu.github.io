@@ -272,7 +272,7 @@ img {
 }
 
 #skills-heading {
-  color: white;
+  color: #061551;
   font-size: 2.5rem;
   padding-left: 15%;
   padding-top: 3%;
@@ -319,7 +319,8 @@ img {
   border-radius: 50%;
   padding: 4% 10%;
   background-color: #f0f0f0;
-  width: fit-content;
+  width: 25px;
+  height: 50px;
   margin-bottom: 5%;
   color: #2f2e2e;
 }

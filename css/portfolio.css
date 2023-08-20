@@ -237,6 +237,57 @@ img {
   margin-top: 20px;
 }
 
+.small-circles {
+  position: absolute;
+  right: 1%;
+  z-index: -1;
+  width: 5%;
+}
+
+.small-circles-1 {
+  position: absolute;
+  left: 4%;
+  z-index: -1;
+  width: 5%;
+}
+
+.elevator-pitch-image-x-o-left {
+  position: absolute;
+  width: 40%;
+  right: 1%;
+  z-index: -1;
+  margin-top: -10%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.elevator-pitch-image-x-o-right {
+  position: absolute;
+  width: 80%;
+  z-index: -1; 
+  left: 5%;
+  margin-top: -7%;
+}
+
+#elevator-pitch-image-x-o-right-one {
+  position: absolute;
+  width: 50%;
+  right: 1%;
+  z-index: -1;
+  margin-top: -15%;
+  padding-right: 5%;
+}
+
+#elevator-pitch-image-x-o-right-two {
+  position: absolute;
+  width: 50%;
+  right: 1%;
+  z-index: -1;
+  margin-top: -10%;
+  padding-right: 5%;
+}
+
 .lightbox {
   display: none;
   position: fixed;
@@ -352,6 +403,33 @@ img {
   padding-left: 5%;
   background-color: #061551;
   color: white;
+}
+
+/* Contact Me  */
+#contact-me-heading {
+  color: #ffffff;
+  font-size: 2rem;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  font-weight: 800;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-information {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.contact-sub-heading {
+  color:rgb(133, 77, 255)
+}
+
+.vertical-line {
+  border-left: 1px solid white;
+    height: 30px;
 }
 
 .footer-dark {

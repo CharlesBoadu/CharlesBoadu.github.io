@@ -622,6 +622,10 @@ img {
     margin-top: 5%;
   }
 
+  .project-one-container-left, .project-two-container-left, .project-three-container-left, .project-four-container-left {
+    width: fit-content;
+  }
+
   .footer-icons {
     width: 30%;
   }
@@ -655,6 +659,23 @@ img {
     max-height: 90%;
     margin: auto;
     display: block;
+  }
+
+  .skills {
+    background-color: white;
+    padding-bottom: 10%;
+  }
+
+  .skillset-one {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .skillset-background {
+    margin-bottom: 15%;
+    width: 60%;
   }
 
   @media (max-width: 768px) {

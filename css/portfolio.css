@@ -650,6 +650,10 @@ img {
     width: fit-content;
   }
 
+  .project-four-images {
+    margin-left: 12.5%;
+  }
+
   .footer-icons {
     width: 30%;
   }

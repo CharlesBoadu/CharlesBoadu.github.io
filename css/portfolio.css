@@ -622,7 +622,10 @@ img {
     margin-top: 5%;
   }
 
-  .project-one-container-left, .project-two-container-left, .project-three-container-left, .project-four-container-left {
+  .project-one-container-left,
+  .project-two-container-left,
+  .project-three-container-left,
+  .project-four-container-left {
     width: fit-content;
   }
 
@@ -640,7 +643,6 @@ img {
     padding-top: 80%;
     width: 100%;
     height: 100%;
-    /* background-color: rgba(6, 21, 81, 0.8); */
     overflow: auto;
     text-align: center;
   }
@@ -670,8 +672,8 @@ img {
     display: flex;
     flex-direction: column;
     margin-top: 10%;
-    margin-left: 25%;
-    width: 50%;
+    margin-left: 20%;
+    width: 60%;
   }
 
   .skillset-background {
@@ -708,7 +710,6 @@ img {
   .contact-info {
     padding-bottom: 8%;
   }
-
 
   .vertical-line {
     display: none;

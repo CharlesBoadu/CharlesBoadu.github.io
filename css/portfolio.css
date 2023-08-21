@@ -10,6 +10,12 @@ body {
   background-color: rgb(6, 21, 81);
 }
 
+.navItemsInner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -464,4 +470,99 @@ img {
   color: #854dff;
   text-align: center;
   margin-top: 20px;
+}
+
+.menu-button {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .navbar-main {
+    height: 4vh;
+  }
+
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    background-color: #ffffff;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1); /* Adding shadow on the left side */
+    transform: translateX(100%); /* Initially off-screen to the right */
+    transition: transform 0.3s ease-in-out;
+    color: black;
+  }
+
+  .navItemsInner {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    padding: 10px 10px;
+    color: black;
+  }
+
+  .nav-items.active {
+    transform: translateX(0); /* Moves the menu into view */
+  }
+
+  .nav-items.active {
+    display: flex;
+  }
+
+  .menu-button {
+    display: block;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 10%;
+  }
+
+  .nav-item {
+    color: black;
+    padding: 10px 0;
+  }
+
+  .menu-button:focus {
+    outline: none;
+  }
+
+  .portfolio-projects {
+    margin-top: 20%;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-icons {
+    width: 30%;
+  }
+
+  @media (max-width: 768px) {
+    .footer-dark .item.text {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .footer-dark .item.social {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
 }

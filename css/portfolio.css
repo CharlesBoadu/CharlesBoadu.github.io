@@ -635,12 +635,12 @@ img {
   }
 
   .close-button {
-    /* position: absolute;
-    top: 20px;
+    position: absolute;
+    top: 22%;
     right: 30px;
     font-size: 30px;
     color: white;
-    cursor: pointer; */
+    cursor: pointer;
   }
 
   #largeImage {

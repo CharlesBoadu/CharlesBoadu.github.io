@@ -1,10 +1,9 @@
 const buttons = document.querySelectorAll("[data-carousel-button]");
 const links = document.querySelectorAll(".nav-item");
 
-
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
-    console.log("I have been clicked")
+    console.log("I have been clicked");
     const offset = button.dataset.carouselButton === "next" ? 1 : -1;
     const slides = button
       .closest("[data-carousel]")
@@ -20,7 +19,6 @@ buttons.forEach((button) => {
   });
 });
 
-
 links.forEach((link) => {
   link.addEventListener("click", () => {
     links.forEach((l) => l.classList.remove("active"));
@@ -29,12 +27,21 @@ links.forEach((link) => {
 });
 
 //Handling click event of the Menu button on Mobile devices
-document.addEventListener('DOMContentLoaded', function() {
-  const menuButton = document.getElementById('mobile-menu-button');
-  const navItems = document.getElementById('navItems');
+document.addEventListener("DOMContentLoaded", function () {
+  const menuButton = document.getElementById("mobile-menu-button");
+  const navItems = document.getElementById("navItems");
 
-  menuButton.addEventListener('click', function() {
-    navItems.classList.toggle('active');
+  menuButton.addEventListener("click", function () {
+    navItems.classList.toggle("active");
+  });
+
+  // Add a click event listener to the document
+  document.addEventListener("click", function (event) {
+    const isMenuButtonClicked = menuButton.contains(event.target); // Check if the click is within the menu button
+    const isMenuClicked = navItems.contains(event.target); // Check if the click is within the menu
+
+    if (!isMenuButtonClicked && !isMenuClicked) {
+      navItems.classList.remove("active"); // Close the menu if the click is outside the button and the menu
+    }
   });
 });
-

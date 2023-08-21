@@ -549,6 +549,48 @@ img {
     flex-direction: column;
   }
 
+  #portfolio-heading {
+    font-size: 2.5rem;
+  }
+
+  .portfolio-sub-heading {
+    width: 80%;
+    font-size: 1rem;
+  }
+
+  #projects-heading {
+    font-size: 1.5rem;
+    padding-top: 10%;
+  }
+
+  .underline hr {
+    width: 32%;
+  }
+
+  .project-one-container {
+    flex-direction: column;
+  }
+
+  #project-number-one {
+    font-size: 2.5rem;
+  }
+
+  #number-one-circle {
+    margin-top: -2.5%;
+    margin-left: -0.5%;
+  }
+
+  #project-one-text {
+    font-size: 1rem;
+    width: 90%;
+    margin-left: -1%;
+  }
+
+  #number-one-circle-image {
+    width: 12%;
+    height: 12%;
+  }
+
   .footer-icons {
     width: 30%;
   }

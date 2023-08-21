@@ -585,7 +585,10 @@ img {
     margin-left: -0.5%;
   }
 
-  #project-one-text, #project-two-text, #project-three-text, #project-four-text {
+  #project-one-text,
+  #project-two-text,
+  #project-three-text,
+  #project-four-text {
     font-size: 1rem;
     width: 90%;
     margin-left: -1%;
@@ -606,12 +609,16 @@ img {
     margin-top: 5%;
   }
 
-  #smallImageFour, #smallImageFive, #smallImageSix {
+  #smallImageFour,
+  #smallImageThree,
+  #smallImageFive,
+  #smallImageSix {
     width: 60%;
     height: 60%;
   }
 
-  .project-two-container-right, .project-three-right {
+  .project-two-container-right,
+  .project-three-right {
     margin-top: 5%;
   }
 
@@ -627,7 +634,7 @@ img {
     top: 0;
     left: 0;
     padding-top: 80%;
-     width: 100%;
+    width: 100%;
     height: 100%;
     /* background-color: rgba(6, 21, 81, 0.8); */
     overflow: auto;

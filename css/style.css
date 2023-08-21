@@ -321,7 +321,7 @@ body {
   }
 
   .navbar-main {
-    display: none;
+    height: 8vh;
   }
 
   
@@ -330,13 +330,14 @@ body {
   flex-direction: column;
   position: fixed;
   top: 0;
-  right: 0;
-  height: 100vh;
+  left: 0;
+  height: 10vh;
   width: 200px;
   background-color: #ffffff;
   box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1); /* Adding shadow on the left side */
   transform: translateX(100%); /* Initially off-screen to the right */
   transition: transform 0.3s ease-in-out;
+  color: black
 }
 
 .nav-items.active {
@@ -361,6 +362,10 @@ body {
     border-radius: 10%;
   }
 
+  .nav-item {
+    color: black;
+  }
+
   .menu-button:focus {
     outline: none;
   }
@@ -371,7 +376,15 @@ body {
 
   .carousel {
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
+  }
+
+  .about-vision-skills {
+    flex-direction: column;
+  }
+
+  .bio-section {
+    height: fit-content;
   }
 
   @media (max-width: 768px) {

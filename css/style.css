@@ -397,6 +397,10 @@ body {
     height: 70vh;
   }
 
+  .carousel-button {
+    z-index: 10;
+  }
+
   .about-vision-skills {
     flex-direction: column;
   }
@@ -409,8 +413,8 @@ body {
     height: fit-content;
   }
 
-  .elevator-pitch-content {
-    width: 150%;
+  .footer-icons {
+    width: 30%;
   }
 
   @media (max-width: 768px) {

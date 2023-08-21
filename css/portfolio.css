@@ -679,6 +679,22 @@ img {
     width: 100%;
   }
 
+  .about-me {
+    background-color: #c1c4d0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .about-text {
+    width: fit-content;
+    padding: 10% 10%;
+    /* margin: 0 auto; */
+    /* background-color: #061551; */
+    color: white;
+    /* margin-left: 0; */
+  }
+
   @media (max-width: 768px) {
     .footer-dark .item.text {
       margin-bottom: 0;

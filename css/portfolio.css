@@ -577,22 +577,26 @@ img {
   #project-number-two,
   #project-number-three,
   #project-number-four {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
-  #number-one-circle,
-  #number-four-circle {
-    margin-top: -2.5%;
+  #number-one-circle {
+    margin-top: 1%;
     margin-left: -0.5%;
   }
 
   #number-two-circle {
-    margin-top: -12%;
+    margin-top: -9%;
     margin-left: -1%;
   }
   
   #number-three-circle {
-    margin-top: -11.5%;
+    margin-top: -9%;
+    margin-left: -0.5%;
+  }
+
+  #number-four-circle {
+    margin-top: 2%;
     margin-left: -0.5%;
   }
 
@@ -609,8 +613,8 @@ img {
   #number-two-circle-image,
   #number-three-circle-image,
   #number-four-circle-image {
-    width: 12%;
-    height: 12%;
+    width: 10%;
+    height: 10%;
   }
 
   #cloud-computing,

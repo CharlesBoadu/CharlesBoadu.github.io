@@ -566,11 +566,17 @@ img {
     width: 32%;
   }
 
-  .project-one-container {
+  .project-one-container,
+  .project-two-container,
+  .project-three-container,
+  .project-four-container {
     flex-direction: column;
   }
 
-  #project-number-one {
+  #project-number-one,
+  #project-number-two,
+  #project-number-three,
+  #project-number-four {
     font-size: 2.5rem;
   }
 
@@ -579,7 +585,7 @@ img {
     margin-left: -0.5%;
   }
 
-  #project-one-text {
+  #project-one-text, #project-two-text, #project-three-text, #project-four-text {
     font-size: 1rem;
     width: 90%;
     margin-left: -1%;
@@ -590,7 +596,8 @@ img {
     height: 12%;
   }
 
-  #cloud-computing, #cloud-computing-linux {
+  #cloud-computing,
+  #cloud-computing-linux {
     width: 90%;
     height: 90%;
   }
@@ -599,8 +606,50 @@ img {
     margin-top: 5%;
   }
 
+  #smallImageFour, #smallImageFive, #smallImageSix {
+    width: 60%;
+    height: 60%;
+  }
+
+  .project-two-container-right, .project-three-right {
+    margin-top: 5%;
+  }
+
   .footer-icons {
     width: 30%;
+  }
+
+  .lightbox {
+    display: none;
+    position: fixed;
+    margin: 0 auto;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* padding-top: 2%; */
+     width: 100%;
+    height: 100%;
+    /* background-color: rgba(6, 21, 81, 0.8); */
+    overflow: auto;
+    text-align: center;
+  }
+
+  .close-button {
+    /* position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer; */
+  }
+
+  #largeImage {
+    max-width: 90%;
+    max-height: 90%;
+    /* margin: auto;
+    display: block; */
   }
 
   @media (max-width: 768px) {

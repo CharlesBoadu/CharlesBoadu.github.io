@@ -456,6 +456,7 @@ img {
   bottom: 0;
   top: 0;
   position: relative;
+  z-index: -10;
 }
 
 .footer-icons {
@@ -476,9 +477,12 @@ img {
 }
 
 @media (max-width: 768px) {
-  .footer-dark .item:not(.social) {
-    text-align: center;
-    padding-bottom: 20px;
+  .footer-dark {
+    padding: 20px 0;
+    background-color: #061551;
+    bottom: 0;
+    top: 0;
+    position: relative;
   }
 
   .navbar-main {
@@ -741,15 +745,15 @@ img {
   }
 
   @media (max-width: 768px) {
-    .footer-dark .item.text {
+    /* .footer-dark .item.text {
       margin-bottom: 0;
-    }
+    } */
   }
 
   @media (max-width: 991px) {
-    .footer-dark .item.social {
+    /* .footer-dark .item.social {
       text-align: center;
       margin-top: 20px;
-    }
+    } */
   }
 }

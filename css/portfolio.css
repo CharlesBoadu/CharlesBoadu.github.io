@@ -669,13 +669,14 @@ img {
   .skillset-one {
     display: flex;
     flex-direction: column;
-    width: 100%;
     margin-top: 10%;
+    margin-left: 25%;
+    width: 50%;
   }
 
   .skillset-background {
-    margin-bottom: 15%;
-    width: 60%;
+    margin-bottom: 35%;
+    width: 100%;
   }
 
   @media (max-width: 768px) {

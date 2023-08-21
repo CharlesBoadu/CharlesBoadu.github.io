@@ -423,7 +423,6 @@ img {
   font-size: 16px;
 }
 
-
 /* Contact Me  */
 #contact-me-heading {
   color: #ffffff;
@@ -589,6 +588,15 @@ img {
   #number-one-circle-image {
     width: 12%;
     height: 12%;
+  }
+
+  #cloud-computing, #cloud-computing-linux {
+    width: 90%;
+    height: 90%;
+  }
+
+  .project-one-images {
+    margin-top: 5%;
   }
 
   .footer-icons {

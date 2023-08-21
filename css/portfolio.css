@@ -689,10 +689,29 @@ img {
   .about-text {
     width: fit-content;
     padding: 10% 10%;
-    /* margin: 0 auto; */
-    /* background-color: #061551; */
     color: white;
-    /* margin-left: 0; */
+  }
+
+  #contact-me-heading {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10%;
+    font-size: 1.5rem;
+  }
+
+  .contact-information {
+    flex-direction: column;
+    margin-left: 15%;
+    width: fit-content;
+  }
+
+  .contact-info {
+    padding-bottom: 8%;
+  }
+
+
+  .vertical-line {
+    display: none;
   }
 
   @media (max-width: 768px) {

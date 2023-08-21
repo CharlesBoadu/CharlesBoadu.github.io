@@ -27,3 +27,14 @@ links.forEach((link) => {
     link.classList.add("active");
   });
 });
+
+//Handling click event of the Menu button on Mobile devices
+document.addEventListener('DOMContentLoaded', function() {
+  const menuButton = document.getElementById('mobile-menu-button');
+  const navItems = document.getElementById('navItems');
+
+  menuButton.addEventListener('click', function() {
+    navItems.classList.toggle('active');
+  });
+});
+

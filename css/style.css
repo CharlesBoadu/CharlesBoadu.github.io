@@ -321,6 +321,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  .sticky-nav {
+    height: fit-content;
+  }
+
   .footer-dark .item:not(.social) {
     text-align: center;
     padding-bottom: 20px;

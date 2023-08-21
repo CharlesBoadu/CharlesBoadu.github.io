@@ -34,7 +34,7 @@ img {
 }
 
 .nav-items {
-  width: 15%;
+  width: 25%;
   display: flex;
   justify-content: space-between;
   margin-right: 50px;
@@ -265,7 +265,7 @@ img {
 .elevator-pitch-image-x-o-right {
   position: absolute;
   width: 80%;
-  z-index: -1; 
+  z-index: -1;
   left: 5%;
   margin-top: -7%;
 }
@@ -379,7 +379,7 @@ img {
 
 /* About Me  */
 .about-me {
-  background-color: #C1C4D0;
+  background-color: #c1c4d0;
   padding-bottom: 6%;
   padding-left: 6%;
   display: flex;
@@ -405,6 +405,19 @@ img {
   color: white;
 }
 
+.download-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
 /* Contact Me  */
 #contact-me-heading {
   color: #ffffff;
@@ -424,12 +437,12 @@ img {
 }
 
 .contact-sub-heading {
-  color:rgb(133, 77, 255)
+  color: rgb(133, 77, 255);
 }
 
 .vertical-line {
   border-left: 1px solid white;
-    height: 30px;
+  height: 30px;
 }
 
 .footer-dark {

@@ -580,8 +580,19 @@ img {
     font-size: 2.5rem;
   }
 
-  #number-one-circle {
+  #number-one-circle,
+  #number-four-circle {
     margin-top: -2.5%;
+    margin-left: -0.5%;
+  }
+
+  #number-two-circle {
+    margin-top: -12%;
+    margin-left: -1%;
+  }
+  
+  #number-three-circle {
+    margin-top: -11.5%;
     margin-left: -0.5%;
   }
 
@@ -594,7 +605,10 @@ img {
     margin-left: -1%;
   }
 
-  #number-one-circle-image {
+  #number-one-circle-image,
+  #number-two-circle-image,
+  #number-three-circle-image,
+  #number-four-circle-image {
     width: 12%;
     height: 12%;
   }

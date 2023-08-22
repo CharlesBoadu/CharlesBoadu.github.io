@@ -352,9 +352,10 @@ body {
   .navItemsInner {
     display: flex;
     flex-direction: column;
-    height: 30vh;
+    height: 20vh;
     padding: 10px 10px;
     color: black;
+    font-size: 1.2rem;
   }
 
   .nav-items.active {

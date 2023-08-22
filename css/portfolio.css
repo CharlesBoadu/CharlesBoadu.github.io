@@ -1292,6 +1292,7 @@ img {
     display: none;
   }
 }
+
 @media (max-width: 912px) and (device-height: 1368px) and (orientation: portrait) {
   .footer-dark {
     padding: 20px 0;
@@ -1561,6 +1562,7 @@ img {
     display: none;
   }
 }
+
 @media (max-width: 280px) and (device-height: 653px) and (orientation: portrait) {
   .footer-dark {
     padding: 20px 0;
@@ -1852,5 +1854,42 @@ img {
 
   .vertical-line {
     display: none;
+  }
+}
+
+@media (max-width: 1024px) and (device-height: 600px) {
+  .nav-items {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+  }
+
+  #number-one-circle {
+    margin-top: -3%;
+    margin-left: -1%;
+  }
+
+  #number-two-circle {
+    margin-top: -13%;
+    margin-left: -1%;
+  }
+
+  #number-three-circle {
+    margin-top: -12.5%;
+    margin-left: -1%;
+  }
+
+  #number-four-circle {
+    margin-top: -15%;
+    margin-left: 1%;
+  }
+
+  #number-one-circle-image,
+  #number-two-circle-image,
+  #number-three-circle-image,
+  #number-four-circle-image {
+    width: 15%;
+    height: 90%;
   }
 }

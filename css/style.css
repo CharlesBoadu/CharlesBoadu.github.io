@@ -419,6 +419,12 @@ body {
     height: fit-content;
   }
 
+  #elevator-pitch-content {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1%;
+  }
+
   .footer-icons {
     width: 30%;
   }
@@ -530,7 +536,149 @@ body {
     height: fit-content;
   }
 
+  #elevator-pitch-content {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1%;
+  }
+
   .footer-icons {
     width: 30%;
+  }
+}
+
+@media (max-width: 280px) and (device-height: 653px) and (orientation: portrait) {
+  .sticky-nav {
+    height: fit-content;
+  }
+
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .navbar-main {
+    height: 10vh;
+  }
+
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    background-color: #ffffff;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1); /* Adding shadow on the left side */
+    transform: translateX(100%); /* Initially off-screen to the right */
+    transition: transform 0.3s ease-in-out;
+    color: black;
+  }
+
+  .navItemsInner {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    padding: 10px 10px;
+    color: black;
+    font-size: 1.2rem;
+  }
+
+  .nav-items.active {
+    transform: translateX(0); /* Moves the menu into view */
+  }
+
+  .nav-items.active {
+    display: flex;
+  }
+
+  .welcome-text-container {
+    padding-top: 20%;
+    width: 80%;
+  }
+
+  .welcome-h1 {
+    font-size: 40px;
+  }
+
+  .menu-button {
+    display: block;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 10%;
+  }
+
+  .nav-item {
+    color: black;
+    padding: 10px 0;
+  }
+
+  .menu-button:focus {
+    outline: none;
+  }
+
+  .welcome-message-container {
+    width: fit-content;
+  }
+
+  .carousel {
+    width: 100vw;
+    height: 70vh;
+  }
+
+  .carousel-button {
+    z-index: 10;
+  }
+
+  .about-vision-skills {
+    flex-direction: column;
+  }
+
+  .bio-section {
+    height: fit-content;
+  }
+
+  .elevator-pitch-section {
+    height: fit-content;
+  }
+
+  #elevator-pitch-content {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1%;
+  }
+
+  .footer-icons {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1024px) and (device-height: 600px) {
+  .nav-items {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+  }
+
+  .welcome-text-container {
+    width: 80%;
+    padding-top: 10%;
+    margin: 0 auto;
+    margin-bottom: 20%;
+  }
+
+  #elevator-pitch-content {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1%;
   }
 }

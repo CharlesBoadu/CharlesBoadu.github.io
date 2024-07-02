@@ -1,0 +1,152 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #212529;
+  background-color: rgb(6, 21, 81);
+}
+
+.navItemsInner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 20px;
+}
+
+.navbar-main {
+  background-color: rgb(6, 21, 81);
+  padding: 20px 10px;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 3px solid #8151f1;
+}
+
+.nav-items {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.nav-item.active {
+  color: #8151f1;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: rgb(133, 77, 255);
+  text-decoration: none;
+}
+
+#projects-heading {
+  text-align: center;
+  font-size: 3.5rem;
+  color: #8151f1;
+  text-shadow: 1px 1px 2px;
+}
+
+.projects-body {
+  color: white;
+  margin-top: 8%;
+}
+
+.projects-sub-heading {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.menu-button {
+  display: none;
+}
+
+.project-one {
+  display: flex;
+  justify-content: space-evenly;
+  color: #061551;
+  margin-left: 15%;
+  margin-top: 4%;
+  width: 75%;
+}
+
+.project-background {
+  background-color: white;
+  /* padding: 6% 2%; */
+  height: 400px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.project-margin {
+  margin-right: 2%;
+}
+
+.project-image {
+  text-align: center;
+  z-index: 0;
+  /* height: 1%; */
+  /* margin-top: 8%; */
+  object-fit: cover;
+}
+
+.project-inner-image {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.project-text-background {
+  background-color: #8151f0;
+  z-index: 1;
+  border-radius: 0px 0px 10px 10px;
+  height: 40%;
+  padding: 5%;
+  /* width: 50%; */
+}
+
+.project-header {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.project-desc {
+  color: rgb(239, 237, 237);
+  padding-top: 5px;
+  height: 60%;
+}
+
+.project-link-cont {
+    padding-top: 10px;
+    color: white;
+}
+
+.project-link {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    color: #051651;
+    text-decoration: none;
+}

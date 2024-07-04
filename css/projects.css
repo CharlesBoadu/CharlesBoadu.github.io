@@ -22,6 +22,12 @@ img {
   cursor: pointer;
 }
 
+.fa-solid, .fa-regular {
+  color: #ffffff;
+  padding-right: 8px;
+  padding-top: 2px;
+}
+
 .sticky-nav {
   position: fixed;
   top: 0;
@@ -40,7 +46,7 @@ img {
 }
 
 .nav-items {
-  width: 15%;
+  width: 20%;
   display: flex;
   justify-content: space-between;
   margin-right: 50px;
@@ -112,7 +118,7 @@ img {
 }
 
 .project-inner-image {
-    border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .project-text-background {
@@ -137,16 +143,117 @@ img {
 }
 
 .project-link-cont {
-    padding-top: 10px;
-    color: white;
+  padding-top: 10px;
+  color: white;
 }
 
 .project-link {
-    color: #ffd700;
-    text-decoration: none;
+  color: #ffd700;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .project-link:hover {
-    color: #051651;
-    text-decoration: none;
+  color: #051651;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-main {
+    height: 4vh;
+  }
+
+  .fa-solid, .fa-regular {
+    color: black;
+    padding-right: 8px;
+    padding-top: 2px;
+  }
+
+  .menu-button {
+    display: block;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 10%;
+  }
+
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    background-color: #ffffff;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1); /* Adding shadow on the left side */
+    transform: translateX(100%); /* Initially off-screen to the right */
+    transition: transform 0.3s ease-in-out;
+    color: black;
+  }
+
+  .navItemsInner {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    padding: 10px 10px;
+    color: black;
+    font-size: 1.2rem;
+  }
+
+  .nav-item {
+    color: black;
+    padding: 10px 0;
+  }
+
+  .nav-items.active {
+    transform: translateX(0); /* Moves the menu into view */
+    display: flex;
+  }
+
+  #projects-heading {
+    font-size: 2.5rem;
+    margin-top: 10%;
+  }
+
+  .projects-sub-heading {
+    font-size: 1.2rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .project-one {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 4%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-background {
+    width: 80%;
+    height: 100%;
+    margin-bottom: 10%;
+  }
+
+  .project-image {
+    width: 100%;
+    height: 50%;
+  }
+
+  .project-text-background {
+    height: 50%;
+  }
+
+  .project-margin {
+    margin-right: 0;
+  }
 }

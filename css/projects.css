@@ -22,7 +22,8 @@ img {
   cursor: pointer;
 }
 
-.fa-solid, .fa-regular {
+.fa-solid,
+.fa-regular {
   color: #ffffff;
   padding-right: 8px;
   padding-top: 2px;
@@ -163,7 +164,8 @@ img {
     height: 4vh;
   }
 
-  .fa-solid, .fa-regular {
+  .fa-solid,
+  .fa-regular {
     color: black;
     padding-right: 8px;
     padding-top: 2px;
@@ -256,4 +258,35 @@ img {
   .project-margin {
     margin-right: 0;
   }
+}
+
+@media (max-width: 1343px) and (device-height: 609px) {
+  .projects-sub-heading {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .nav-items {
+    width: 25%;
+  }
+
+  .project-one {
+    margin-left: 6%;
+    margin-top: 4%;
+    width: 90%;
+  }
+
+  .project-background {
+    width: 50%;
+    height: 400px;
+  }
+
+  .project-text-background {
+    background-color: #8151f0;
+    z-index: 1;
+    border-radius: 0px 0px 10px 10px;
+    height: 42.5%;
+    padding: 5%;
+  }
+
 }

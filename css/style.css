@@ -225,7 +225,7 @@ body {
 .about-vision-skills {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -234,14 +234,20 @@ body {
   font-weight: 800;
   font-size: x-large;
   padding-bottom: 20px;
+  height: 40%;
 }
 
 .bio-image {
   padding-bottom: 10px;
 }
 
+.bio-header-text {
+  height: 10%;
+}
+
 .bio-item {
-  padding: 50px;
+  padding: 25px;
+  width: 30%;
   text-align: center;
 }
 
@@ -837,5 +843,19 @@ body {
     width: 80%;
     margin: 0 auto;
     padding-top: 1%;
+  }
+}
+
+@media (max-width: 1343px) and (device-height: 609px) {
+  .bio-section {
+    height: fit-content;
+  }
+
+  .bio-sub-heading {
+    height: 20%;
+  }
+
+  .nav-items {
+    width: 45%;
   }
 }
